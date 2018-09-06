@@ -13,7 +13,8 @@ function nowServing(line) {
 
 function currentLine(line) {
   if (line.length === 0) {
-    return "There is nobody waiting to be served!"
+    return "The line is currently empty."
+  } else {
+    return `The line is currently: ` 
   }
-  return `The line is currently: `
 }
