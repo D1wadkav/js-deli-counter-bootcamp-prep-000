@@ -1,5 +1,5 @@
 function takeANumber(line, name) {
-  return `Welcome, ${name}. You are number ${number} in line.`
+  return `Welcome, ${name}. You are number ${parseInt(line.length) + 1} in line.`
 }
 
 function nowServing(line) {
