@@ -22,7 +22,6 @@ function currentLine(line) {
       } else {
         status = status + `${i}.` + `${line[i]}`;
       }
-      
     }
     return status 
   }
