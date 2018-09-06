@@ -16,7 +16,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     var status = "The line is currently:"
-    for (i = 1; line.length > i; i++) {
+    for (var i = 1; line.length > i; i++) {
       if (i < line.length) {
       status = status + `${i}.` + `${line[i]},`;  
       } else {
