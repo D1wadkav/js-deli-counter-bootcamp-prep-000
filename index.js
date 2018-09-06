@@ -18,7 +18,7 @@ function currentLine(line) {
     var status = "The line is currently:"
     for (var i = 1; line.length > i; i++) {
       if (i < line.length) {
-      status = status + `${i}.` + `${line[i]},`;  
+      status = status + `${i}. ` + `${line[i]},`;  
       } else {
         status = status + `${i}.` + `${line[i]}`;
       }
