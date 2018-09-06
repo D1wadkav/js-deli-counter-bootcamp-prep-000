@@ -3,10 +3,10 @@ function takeANumber(num, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
-function nowServing(line) {
+function nowServing(num) {
   
 }
 
-function currentLine(line) {
+function currentLine(num) {
   return `The line is currently: `
 }
