@@ -7,6 +7,6 @@ function nowServing(line) {
   
 }
 
-function currentLine() {
-  
+function currentLine(line) {
+  return `The line is currently: `
 }
